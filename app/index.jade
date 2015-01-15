@@ -4,14 +4,91 @@ html(lang="en-US")
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1")
-    title My Title
+    title Savings Multiplied Materialize
     link(rel="stylesheet" href="css/main.css")
+    link(rel="stylesheet" href="/vendor/materialize/bin/materialize.css")
 
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
 
-    .container
-      img(src="img/NSS-logo-primary.svg", alt="NSS Logo", title="Nashville Software School")
-      h1 Hello World
+    section.header
+      .container
+        .row.login
+          .col.s2.offset-s10
+            ul 
+              li sign in 
+              li |
+              li sign up
+        .row.pre-nav
+          .col.s5.logo
+            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
+          .col.s7.tagline
+            ul
+              li 
+                a.btn About 
+              li 
+                a.btn Contact
+              li 
+                a.btn Blog
+              li 
+                a.btn Press
+            p where parents of multiples save, sell, and share!
+    section.nav 
+      .container
+        .row.main_nav
+          ul
+            li Buy
+            li Sell
+            li How it Works
+            li Links
+            li Communities
+            li Search
+
+    section.main
+      .container
+        .row.main
+          .col.s7
+            .row
+              .col.s12
+                p We're making one aspect of life easier for parents of multiples:
+              .col.s12
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/owl_44_44.png")
+                p Buying and selling gently used sets of clothes
+          .col.s5
+            .row
+              .col.s12
+                p right column1
+            .row
+              .col.s12
+                p right column2
+            .row
+              .col.s12
+                p right column3
+          .row.icons
+            .col.s3
+              p icon1
+            .col.s3
+              p icon2
+            .col.s3
+              p icon3
+            .col.s3
+              p icon4
+
+      section.footer
+        .container
+          .row
+            .col.s12
+              ul
+                li link here
+                li link here
+                li link here
+                li link here
+                li link here
+                li link here
+
+
+
+
 
     script(src="js/main.js")
+
