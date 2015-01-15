@@ -1,45 +1,46 @@
 @import "variables";
 @import "headings";
 
-.row.pre-nav { 
-	background-color: white;
-	border-radius: 1rem 1rem 0 0;
-}
-
-.row.main {
-	background-color: white;
-	border-radius: 0 0 1rem 1rem;
-}
-
 section.header {
-	background-color: lightblue;
-
-}
+		background-color: lightblue;
+	}
 
 section.nav {
 	background-color: pink;
 }
 
 section.main {
-	background-color: darkblue;
-}
-
-section.footer {
-	background-color: darkblue;
+	background-color: blue;
 }
 
 ul li {
 	display: inline-block;
 }
+
+section {
+  .row {
+	margin-bottom: 0;
+	}
+}
+
 .row {
 	padding: 1px 0;
 }
-section {
-	.row {
-		margin-bottom: 0;
-	}
+
+.pre-nav {
+	background: white;
+	border-radius: 1em 1em 0 0;
+}
+
+.main-content {
+	background: white;
+	border-radius: 0 0 1em 1em;
 }
 
 img {
 	max-width: 100%;
+}
+
+.heading {
+	
 }
