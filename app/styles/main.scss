@@ -1,6 +1,8 @@
 @import "variables";
 @import "headings";
 
+$teal: #82CED4;
+
 section.header {
 		background-color: lightblue;
 	}
@@ -42,5 +44,7 @@ img {
 }
 
 .heading {
-	
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 18px;
+	color: $teal;
 }
