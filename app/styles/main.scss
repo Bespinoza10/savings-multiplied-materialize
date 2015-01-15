@@ -1,2 +1,45 @@
 @import "variables";
 @import "headings";
+
+.row.pre-nav { 
+	background-color: white;
+	border-radius: 1rem 1rem 0 0;
+}
+
+.row.main {
+	background-color: white;
+	border-radius: 0 0 1rem 1rem;
+}
+
+section.header {
+	background-color: lightblue;
+
+}
+
+section.nav {
+	background-color: pink;
+}
+
+section.main {
+	background-color: darkblue;
+}
+
+section.footer {
+	background-color: darkblue;
+}
+
+ul li {
+	display: inline-block;
+}
+.row {
+	padding: 1px 0;
+}
+section {
+	.row {
+		margin-bottom: 0;
+	}
+}
+
+img {
+	max-width: 100%;
+}

@@ -4,14 +4,78 @@ html(lang="en-US")
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1")
-    title My Title
+    title Savings Multplied Materialize
+    link(rel="stylesheet" href="/vendor/materialize/bin/materialize.css")
     link(rel="stylesheet" href="css/main.css")
 
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
-
-    .container
-      img(src="img/NSS-logo-primary.svg", alt="NSS Logo", title="Nashville Software School")
-      h1 Hello World
+    section.header
+      .container
+        .row.login
+          .col.s2.offset-s10
+            ul
+              li sign in
+              li |
+              li sign up
+        .row.pre-nav
+          .col.s5.logo
+            img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png')
+          .col.s7.logolinks 
+              ul
+                li 
+                  a.btn home
+                li 
+                  a.btn about
+                li 
+                  a.btn etc
+                li 
+                  a.btn etc
+              head where parents of multiples go to buy, sell, and trade
+    section.nav
+      .container
+        .row.main-nav
+          ul
+            li Buy
+            li Sell
+            li How it Works
+            li Links
+            li search
+    section.main
+      .container
+        .row.main
+          .col.s7            
+              .col.s12
+                p first row
+              .col.s12
+                p second row
+              .col.s12
+                p third row
+          .col.s5            
+              .col.s12
+                p first image
+              .col.s12
+                p second image
+              .col.s12
+                p third image
+        .row.nav
+          .col.s12
+            .col.s3
+              p facebook
+            .col.s3
+              p twitter
+            .col.s3
+              p instagram
+            .col.s3
+              p twitter
+    section.footer
+      .container
+        .row
+          .col.s12
+            ul
+              li home 
+              li about
+              li etc
+              li etc
 
     script(src="js/main.js")
