@@ -1,0 +1,14 @@
+{
+  "name": "savings-multiplied-materialize",
+  "version": "0.0.1",
+  "main": "public/index.html",
+  "authors": [
+    "Molly Black <mollytaryn@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mollytaryn/savings-multiplied-materialize",
+  "private": true,
+  "dependencies": {
+    "materialize": "~0.94.2"
+  }
+}
