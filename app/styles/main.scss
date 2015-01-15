@@ -36,7 +36,7 @@ section.nav {
 }
 
 section.main {
-	background-color: blue;
+	background-color: #75CBD2;
 }
 
 ul li {
@@ -72,4 +72,27 @@ img {
 	font-size: 18px;
 	line-height: 1.5rem;
 	color: $teal;
+}
+
+.row.social {
+	border-top: 3px dotted lightblue;
+	margin: 0 10px;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+
+}
+
+.footer ul {
+	font-size: .8em;
+	font-weight: 80px;
+	color: white;
+	text-align: center;
+
+	li {
+		padding: 10px;
+
+	}
 }
