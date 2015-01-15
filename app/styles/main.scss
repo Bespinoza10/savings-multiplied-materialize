@@ -43,6 +43,17 @@ ul li {
 	display: inline-block;
 }
 
+.main-nav {
+	ul {
+		li {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 16px;
+		color: darken($pink, 20%);
+		padding: 0 2em;
+		}
+	}
+}
+
 section {
   .row {
 	margin-bottom: 0;
