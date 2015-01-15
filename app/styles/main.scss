@@ -1,7 +1,31 @@
 @import "variables";
 @import "headings";
 
+$babyblue: #D6F1F0;
 $teal: #82CED4;
+$green: #8DB639;
+$purple: #6F308C;
+$pink: #E9168C;
+
+ul.pre-nav-buttons {
+	margin-top: 3em;
+	margin-bottom: 0;
+}
+
+.tagline {
+	margin-top: 0;
+}
+
+.btn {
+	color: white;
+	border-radius: 2rem;
+	text-transform: capitalize;
+	.babyblue {background-color: $babyblue;}
+	.teal {background-color: $teal;}
+	.green {background-color: $green;}
+	.purple {background-color: $purple;}
+	.pink {background-color: $pink;}
+}
 
 section.header {
 		background-color: lightblue;
@@ -46,5 +70,6 @@ img {
 .heading {
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 18px;
+	line-height: 1.5rem;
 	color: $teal;
 }
