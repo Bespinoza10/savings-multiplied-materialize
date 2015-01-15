@@ -2,7 +2,7 @@
 @import "headings";
 
 section.header {
-		background-color: lightblue;
+		background-color: #d5f1f0;
 	}
 
 section.nav {
@@ -10,7 +10,11 @@ section.nav {
 }
 
 section.main {
-	background-color: blue;
+	background-color: #75cbd2;
+}
+
+.row.main-nav {
+	font-weight: 1000rem;
 }
 
 ul li {
