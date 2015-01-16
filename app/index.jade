@@ -14,16 +14,16 @@ html(lang="en-US")
     section.header
       .container
         .row.login
-          .col.s2.offset-s10
+          .col.s12.offset-s10
             ul
               li Sign in
               li |
               li Sign up 
         .row.pre-nav
-          .col.s5.logo
+          .col.s12.l5.logo
             img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png')
-          .col.s7.pre-nav-content
-            ul.pre-nav-buttons
+          .col.s12.l7.pre-nav-content
+            ul.pre-nav-buttons.valign-wrapper
               li 
                 a.btn.teal About
               li 
@@ -42,18 +42,22 @@ html(lang="en-US")
             li How it Works
             li Links
             li Community
+            li
+              input(
+                type='search'
+              )
     section.main
       .container
         .row.main-content
           // left content
-          .col.s7
+          .col.s12.m7
             .row 
               .col.s12
-                p We're making one aspect of life easier for parents of multiples
+                p.heading We're making one aspect of life easier for parents of multiples
               .col.s12
                 img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/owl_44_44.png")
           // right content
-          .col.s5
+          .col.s12.m5
             .row
               .col.s12
                 img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
@@ -61,15 +65,15 @@ html(lang="en-US")
                 img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg")  
               .col.s12
                 img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
-          .col.s12
+          .col.s12.main-after
             .row.social
-              .col.s3.center
+              .col.s12.m6.l3.center
                 img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/facebook_callout.png")
-              .col.s3.center
+              .col.s12.m6.l3.center
                 img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/twitter_callout.png")
-              .col.s3.center
+              .col.s12.m6.l3.center
                 img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/message_board_callout.png")
-              .col.s3.center
+              .col.s12.m6.l3.center
                 img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/special_offers_callout.png")
       .footer
         .container

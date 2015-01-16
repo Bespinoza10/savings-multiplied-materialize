@@ -10,10 +10,23 @@ $pink: #E9168C;
 ul.pre-nav-buttons {
 	margin-top: 3em;
 	margin-bottom: 0;
+	li {
+		margin-right: 5px;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+	.logo img {
+		display: block;
+		margin: 0 auto;
+		padding-top: 1em;
+    }
 }
 
 .tagline {
 	margin-top: 0;
+	text-align: center;
 }
 
 .btn {
@@ -45,11 +58,17 @@ ul li {
 
 .main-nav {
 	ul {
+		@media screen and (max-width: 992px) {
+			display: none;
+		}
 		li {
 		font-family: 'Alfa Slab One', cursive;
 		font-size: 16px;
 		color: darken($pink, 20%);
-		padding: 0 2em;
+		padding: 0 2.8%;
+		&:last-child {
+			padding-right: 0;
+			}
 		}
 	}
 }
@@ -72,6 +91,7 @@ section {
 .main-content {
 	background: white;
 	border-radius: 0 0 1em 1em;
+	padding: 1em;
 }
 
 img {
@@ -85,9 +105,14 @@ img {
 	color: $teal;
 }
 
+.main-after {
+	margin-top: 1em;
+}
+
 .row.social {
 	border-top: 3px dotted lightblue;
 	margin: 0 10px;
+	padding-top: 1em;
 }
 
 .center {
