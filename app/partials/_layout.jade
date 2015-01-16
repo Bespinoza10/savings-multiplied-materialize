@@ -1,8 +1,109 @@
+//- //doctype html
+//- html(lang="en-US")
+//-   head
+//-     include ./_head.jade
+
+//-   body
+//-     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
+//-     block content
+
+//-     	//
+
+doctype html
 doctype html
 html(lang="en-US")
   head
-    include ./_head.jade
-
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Savings Multiplied Materialize
+    link(rel="stylesheet" href="/vendor/materialize/bin/materialize.css")
+    link(rel="stylesheet" href="css/main.css")
+    link(href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css')
+    
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
-    block content
+    section.header
+      .container
+        .row.login
+          .col.s12.offset-s10
+            ul
+              li Sign in
+              li |
+              li Sign up 
+        .row.pre-nav
+          .col.s12.l5.logo
+            img(src='https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png')
+          .col.s12.l7.pre-nav-content
+            ul.pre-nav-buttons.valign-wrapper
+              li 
+                a.btn.teal(href="shop.html") About
+              li 
+                a.btn.green Contact
+              li 
+                a.btn.purple Blog
+              li 
+                a.btn.pink Press
+            h2.heading.tagline where parents of multiple save, sell &amp; share
+    section.nav
+      .container
+        .row.main-nav
+          ul
+            li Buy
+            li Sell
+            li How it Works
+            li Links
+            li Community
+            li
+              input(
+                type='search'
+              )
+    section.main
+      .container
+        .row.main-content
+          // left content
+          .col.s12.m7
+            .row 
+              .col.s12
+                p.heading We're making one aspect of life easier for parents of multiples
+              .col.s12
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/owl_44_44.png")
+          // right content
+          .col.s12.m5
+            .row
+              .col.s12
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
+              .col.s12
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg")  
+              .col.s12
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
+          .col.s12.main-after
+            .row.social
+              .col.s12.m6.l3.center
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/facebook_callout.png")
+              .col.s12.m6.l3.center
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/twitter_callout.png")
+              .col.s12.m6.l3.center
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/message_board_callout.png")
+              .col.s12.m6.l3.center
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/special_offers_callout.png")
+      .footer
+        .container
+          .row
+            .col.s12
+              ul
+                li Link here
+                li |
+                li Link here
+                li |
+                li Link here
+                li |
+                li Link here
+                li |
+                li Link here
+                li |
+                li Link here
+
+
+
+    script(src="js/main.js")
