@@ -159,6 +159,7 @@ img {
 
 .rightboxsort {
 	float: left;
+	display: inline-block;
 }
 .grnsearch {
 	display: inline;
@@ -183,3 +184,6 @@ img {
 	color: #8CB537;
 }
 
+html body section.main div.container div.row.main-content div.col.s12.m12.14 div.row div.col.s12 select.this_one {
+	display: inline-block !important;
+}
