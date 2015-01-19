@@ -6,6 +6,7 @@ $teal: #82CED4;
 $green: #8DB639;
 $purple: #6F308C;
 $pink: #E9168C;
+$lightgreen: #EDF9D3;
 
 ul.pre-nav-buttons {
 	margin-top: 3em;
@@ -14,7 +15,12 @@ ul.pre-nav-buttons {
 		margin-right: 5px;
 	}
 }
+//search stuff for second page
 
+.col.s8 {
+	background-color: $lightgreen;
+	border-radius: 5%;
+}
 
 @media screen and (max-width: 992px) {
 	.logo img {
