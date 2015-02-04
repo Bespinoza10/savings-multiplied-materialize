@@ -187,3 +187,17 @@ img {
 html body section.main div.container div.row.main-content div.col.s12.m12.14 div.row div.col.s12 select.this_one {
 	display: inline-block !important;
 }
+
+.productGrid {
+  width: 25%;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.item-title {
+  text-align: center;
+}
