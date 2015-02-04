@@ -195,7 +195,8 @@ html body section.main div.container div.row.main-content div.col.s12.m12.14 div
 .image {
   width: 100px;
   height: 100px;
-  overflow: hidden;
+  overflow:  hidden;
+  position: relative;
 }
 
 .item-title {
