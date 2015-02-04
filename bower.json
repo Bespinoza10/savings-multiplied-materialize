@@ -9,6 +9,8 @@
   "homepage": "https://github.com/mollytaryn/savings-multiplied-materialize",
   "private": true,
   "dependencies": {
-    "materialize": "~0.94.2"
+    "materialize": "~0.94.2",
+    "moment": "~2.9.0",
+    "jquery": "~2.1.3"
   }
 }
